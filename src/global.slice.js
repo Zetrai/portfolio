@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
-  darkMode: false,
+  darkMode: true,
 };
 
 // This will enable/disable the dark mode
