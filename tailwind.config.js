@@ -1,0 +1,43 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  darkMode: 'class',
+  theme: {
+    fontSize: {
+      xs: ['12px', '16px'],
+      sm: ['14px', '20px'],
+      base: ['16px', '19.5px'],
+      lg: ['18px', '21.94px'],
+      xl: ['20px', '24.38px'],
+      '2xl': ['24px', '29.26px'],
+      '3xl': ['28px', '50px'],
+      '4xl': ['48px', '58px'],
+      '8xl': ['96px', '106px'],
+    },
+    extend: {
+      fontFamily: {
+        opensans: ['Open Sans', 'sans-serif'],
+        montserrat: ['Montserrat', 'sans-serif'],
+      },
+      colors: {
+        primary: '#FF6452', // Main heading color
+        backgroundLight: '#F9F9F9', // Light mode background
+        backgroundDark: '#1A202C', // Dark mode background
+        textLight: '#4A4A4A', // Light mode text color
+        textDark: '#E2E8F0', // Dark mode text color
+        subheadingLight: '#333333', // Light mode subheading color
+        subheadingDark: '#CBD5E0', // Dark mode subheading color
+        accentGold: '#FFD166', // Accent color 1
+        accentGreen: '#06D6A0', // Accent color 2
+        accentBlue: '#118AB2', // Accent color 3
+      },
+      boxShadow: {
+        '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)',
+      },
+      screens: {
+        wide: '1440px',
+      },
+    },
+  },
+  plugins: [],
+};
