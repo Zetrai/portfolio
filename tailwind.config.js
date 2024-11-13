@@ -22,7 +22,7 @@ export default {
       colors: {
         primary: '#FF6452', // Main heading color
         backgroundLight: '#F9F9F9', // Light mode background
-        backgroundDark: '#1A202C', // Dark mode background
+        backgroundDark: '#0F172A', // Dark mode background
         textLight: '#4A4A4A', // Light mode text color
         textDark: '#E2E8F0', // Dark mode text color
         subheadingLight: '#333333', // Light mode subheading color
@@ -36,6 +36,25 @@ export default {
       },
       screens: {
         wide: '1440px',
+      },
+      animation: {
+        pulse: 'pulse 2s infinite',
+      },
+      keyframes: {
+        pulse: {
+          '0%': {
+            transform: 'translate(-50%, -50%) scale(0.8)',
+            opacity: '0.5',
+          },
+          '50%': {
+            transform: 'translate(-50%, -50%) scale(1)',
+            opacity: '0.7',
+          },
+          '100%': {
+            transform: 'translate(-50%, -50%) scale(0.8)',
+            opacity: '0.5',
+          },
+        },
       },
     },
   },

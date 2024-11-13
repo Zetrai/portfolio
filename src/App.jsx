@@ -1,17 +1,21 @@
-import { Routes, Route } from 'react-router-dom';
+import { isMobile } from 'react-device-detect';
 
-import { Navigation, Home } from './components';
+import { Navigation, Home, AboutMe } from './components';
 import { Spotlight } from './components';
 
 const App = () => {
+  console.log(isMobile);
   return (
-    <div>
-      <Spotlight />
+    <>
+      {!isMobile && <Spotlight />}
       <Navigation />
-      <Routes>
-        <Route path='/' element={<Home />} />
-      </Routes>
-    </div>
+      <div className='min-h-screen w-full flex flex-col relative z-10 pt-[15vh]'>
+        <div className='min-h-[85vh]'>
+          <Home />
+          <AboutMe />
+        </div>
+      </div>
+    </>
   );
 };
 

@@ -1,7 +1,11 @@
 import { useState, useEffect } from 'react';
 
 const Home = () => {
-  return <div className='relative h-[85%] text-white'>Home</div>;
+  return (
+    <section id='home' className='min-h-[85vh] text-white'>
+      Home
+    </section>
+  );
 };
 
 export default Home;
