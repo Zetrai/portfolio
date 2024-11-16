@@ -38,7 +38,13 @@ const Navigation = () => {
           ABOUT ME
         </a>
       </nav>
-      <PulseIcon icon={modeIcon} onClickHandler={darkModeHandler} />
+      <PulseIcon
+        icon={modeIcon}
+        alt='dark-mode'
+        onClickHandler={darkModeHandler}
+        enablePulse='true'
+        className='h-[45px] w-[45px]'
+      />
     </nav>
   );
 };

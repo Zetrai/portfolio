@@ -40,6 +40,16 @@ html.dark {
 }
 
 @layer components {
+  .card {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 3px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    transform: translateY(0);
+  }
+
+  .card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+  }
 }
 
 @layer utilities {
