@@ -24,7 +24,7 @@ export default {
       },
       colors: {
         primary: '#FF6452', // Main heading color
-        backgroundLight: '#F9F9F9', // Light mode background
+        backgroundLight: '#efefef', // Light mode background
         backgroundDark: '#0F172A', // Dark mode background
         textLight: '#4A4A4A', // Light mode text color
         textDark: '#E2E8F0', // Dark mode text color
