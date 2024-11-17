@@ -21,6 +21,7 @@ export default {
         montserrat: ['Montserrat', 'sans-serif'],
         juliusSans: ['Julius Sans One', 'sans-serif'],
         archivo: ['Archivo Narrow', 'sans-serif'],
+        saira: ['Saira', 'sans-serif'],
       },
       colors: {
         primary: '#FF6452', // Main heading color

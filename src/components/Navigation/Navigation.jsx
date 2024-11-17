@@ -22,20 +22,20 @@ const Navigation = () => {
   }, [darkMode]);
 
   return (
-    <nav className='px-5 py-4 flex flex-row justify-center items-center fixed w-full min-h-[15vh] top-0 left-0 right-0 z-20 dark:bg-backgroundDark bg-backgroundLight'>
+    <nav className='px-5 py-4 flex-center flex-row fixed w-full min-h-[15vh] top-0 left-0 right-0 z-20 dark:bg-backgroundDark bg-backgroundLight'>
       <img src={logo} alt='logo' height={45} width={45} />
-      <nav className='flex flex-1 gap-5 justify-center items-center text-2xl font-montserrat font-semibold text-primary'>
+      <nav className='flex-1 gap-5 text-2xl font-semibold flex-center font-montserrat text-primary'>
         <a
           href='#home'
           label='Home'
-          className='hover:scale-110 transition-transform'>
-          HOME
+          className='uppercase transition-transform hover:scale-110'>
+          Home
         </a>
         <a
           href='#aboutme'
           label='About me'
-          className='hover:scale-110 transition-transform'>
-          ABOUT ME
+          className='uppercase transition-transform hover:scale-110'>
+          Projects
         </a>
       </nav>
       <PulseIcon

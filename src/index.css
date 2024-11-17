@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;700&family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@400;600&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -50,7 +51,7 @@ html.dark {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 3px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     transform: translateY(0);
-    overflow: auto;
+    overflow-x: hidden;
   }
 
   .card:hover {
@@ -60,4 +61,9 @@ html.dark {
 }
 
 @layer utilities {
+  .flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
