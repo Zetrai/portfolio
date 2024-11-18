@@ -12,7 +12,7 @@ import {
 
 const Home = () => {
   return (
-    <section id="aboutme" className="mb-9 min-h-[85vh]">
+    <section id="home" className="mb-9 min-h-[85vh]">
       <div className="grid grid-cols-[2fr_1fr] grid-rows-[auto_auto] gap-4">
         <Card className="flex min-h-[400px] flex-col justify-center">
           <p className="text-[15px] text-textLight dark:text-textDark">
@@ -60,8 +60,8 @@ const Home = () => {
             <span className="text-4xl">6</span> Years
           </p>
 
-          <h2 className="absolute bottom-5 text-center font-saira text-xs uppercase tracking-widest text-black opacity-20 dark:text-gray-100 sm:text-base lg:text-xl">
-            Experience
+          <h2 className="absolute bottom-5 break-words text-center font-saira text-xs uppercase tracking-widest text-black opacity-20 dark:text-gray-100 sm:text-base lg:text-xl">
+            Total Experience
           </h2>
         </Card>
         <Card className="flex flex-col items-center justify-around gap-2">
