@@ -65,7 +65,7 @@ const Home = () => {
           </h2>
         </Card>
         <Card className="flex flex-col items-center justify-around gap-2">
-          <h2 className="text-center font-saira text-xs uppercase tracking-widest text-black dark:text-gray-100 sm:text-base lg:text-xl">
+          <h2 className="text-center font-saira text-xs uppercase tracking-widest text-black dark:text-gray-100 sm:text-base lg:mb-5 lg:text-xl">
             Full stack Developer
           </h2>
 
@@ -74,7 +74,7 @@ const Home = () => {
           </h2>
         </Card>
         <Card className="flex flex-col items-center justify-around gap-2">
-          <h2 className="text-center font-saira text-lg uppercase tracking-widest text-black dark:text-gray-100 sm:text-xl lg:text-2xl">
+          <h2 className="text-center font-saira text-lg uppercase tracking-widest text-black dark:text-gray-100 sm:text-xl lg:mb-5 lg:text-2xl">
             M.Tech
             <p className="text-center font-saira text-xs uppercase tracking-widest text-black dark:text-gray-100 sm:text-xs lg:text-base">
               in Software Systems
@@ -86,7 +86,7 @@ const Home = () => {
           </h2>
         </Card>
         <Card className="flex min-h-[150px] flex-col items-center justify-around gap-4 sm:p-[3px] lg:min-h-[200px] lg:p-2">
-          <p className="mb-10 break-all text-center font-saira text-sm lowercase tracking-widest text-black dark:text-gray-100 sm:text-base lg:text-lg">
+          <p className="break-all text-center font-saira text-sm lowercase tracking-widest text-black dark:text-gray-100 sm:text-base lg:mb-5 lg:text-lg">
             karanpatadia28@gmail.com
           </p>
 

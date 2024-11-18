@@ -1,4 +1,5 @@
 import { isMobile } from "react-device-detect";
+import ScrollSpy from "react-ui-scrollspy";
 
 import { Navigation, Home } from "./components";
 import { Spotlight } from "./components";
@@ -12,9 +13,16 @@ const App = () => {
       <Navigation />
       <div className="relative z-10 flex min-h-screen w-full flex-col pt-[15vh]">
         <div className="mx-6 min-h-[85vh]">
-          <Home />
-          <Experience />
-          <Projects />
+          <ScrollSpy // parentScrollContainerRef={parentScrollContainerRef}
+            activeClass="ss-active-demo-2"
+            offsetBottom={100}
+            scrollThrottle={80}
+            useBoxMethod
+          >
+            <Home />
+            <Experience />
+            <Projects />
+          </ScrollSpy>
         </div>
       </div>
     </>
