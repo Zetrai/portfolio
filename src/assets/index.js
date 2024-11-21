@@ -1,14 +1,15 @@
-import logo from './icons/logo.svg';
-import darkmodeIcon from './icons/darkmodeIcon.svg';
-import lightmodeIcon from './icons/lightmodeIcon.svg';
-import ReactIcon from './icons/reactIcon.svg?react';
-import AngularIcon from './icons/angularIcon.svg?react';
-import TailwindIcon from './icons/tailwindIcon.svg?react';
-import HtmlIcon from './icons/htmlIcon.svg?react';
-import ScssIcon from './icons/scssIcon.svg?react';
-import NodeJsIcon from './icons/nodejsIcon.svg?react';
-import MySqlIcon from './icons/mySqlIcon.svg?react';
-import UnityIcon from './icons/unityIcon.svg?react';
+import logo from "./icons/logo.svg";
+import darkmodeIcon from "./icons/darkmodeIcon.svg";
+import lightmodeIcon from "./icons/lightmodeIcon.svg";
+import ReactIcon from "./icons/reactIcon.svg?react";
+import AngularIcon from "./icons/angularIcon.svg?react";
+import TailwindIcon from "./icons/tailwindIcon.svg?react";
+import HtmlIcon from "./icons/htmlIcon.svg?react";
+import ScssIcon from "./icons/scssIcon.svg?react";
+import NodeJsIcon from "./icons/nodejsIcon.svg?react";
+import MySqlIcon from "./icons/mySqlIcon.svg?react";
+import UnityIcon from "./icons/unityIcon.svg?react";
+import CSharpIcon from "./icons/cSharpIcon.svg?react";
 
 export {
   logo,
@@ -22,4 +23,5 @@ export {
   NodeJsIcon,
   MySqlIcon,
   UnityIcon,
+  CSharpIcon,
 };

@@ -4,7 +4,7 @@ const ExperienceCard = ({ children, className, details }) => {
   const { name, role, body, skills } = details;
   return (
     <div
-      className={`card relative m-16 h-full w-full rounded-xl bg-gray-300 p-9 dark:bg-[#080d17] lg:h-[90%] ${className}`}
+      className={`card relative m-16 h-full w-full rounded-xl bg-[#FFF0E5] p-9 dark:bg-[#080d17] lg:h-[90%] ${className}`}
     >
       <div className="absolute left-2 top-2 size-5 rounded-full border-2 border-black bg-backgroundDark"></div>
       <h2 className="text-2xl text-textLight dark:text-textDark">{name}</h2>

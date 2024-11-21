@@ -11,7 +11,6 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  overflow: hidden;
 }
 /* Light mode */
 html {
@@ -77,5 +76,21 @@ html.dark {
     justify-content: center;
     align-items: center;
     justify-items: center;
+  }
+  .gradient-light {
+    background-image: linear-gradient(
+      to right,
+      rgba(245, 224, 195, 0.4),
+      /* Light beige */ rgba(241, 196, 141, 0.4),
+      /* Soft golden beige */ rgba(226, 189, 150, 0.4) /* Light brown */
+    );
+  }
+  .gradient-dark {
+    background-image: linear-gradient(
+      to right,
+      rgba(45, 55, 72, 0.2),
+      rgba(56, 178, 172, 0.2),
+      rgba(74, 85, 104, 0.2)
+    );
   }
 }

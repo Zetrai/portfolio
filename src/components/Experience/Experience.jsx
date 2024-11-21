@@ -36,7 +36,7 @@ const Experience = () => {
   return (
     <section
       id="experience"
-      className="grid-row relative grid min-h-[85vh] items-center justify-center justify-items-center text-white lg:grid-cols-[2fr_0.6fr_2fr]"
+      className="grid-row relative grid min-h-[85vh] items-center justify-center justify-items-center text-textLight dark:text-textDark lg:grid-cols-[2fr_0.6fr_2fr]"
     >
       <ExperienceCard details={wsibDetails} />
       <div className="flex w-full flex-col items-center justify-center lg:flex-row">
