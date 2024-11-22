@@ -6,12 +6,12 @@ const ExperienceCard = ({ children, className, details }) => {
     <div
       className={`card relative m-16 h-full w-full rounded-xl bg-[#FFF0E5] p-9 dark:bg-[#080d17] lg:h-[90%] ${className}`}
     >
-      <div className="absolute left-2 top-2 size-5 rounded-full border-2 border-black bg-backgroundDark"></div>
+      <div className="absolute left-2 top-2 size-5 rounded-full border-2 border-black/40 bg-backgroundLight dark:border-black dark:bg-backgroundDark" />
       <h2 className="text-2xl text-textLight dark:text-textDark">{name}</h2>
       <p className="">{role}</p>
       <div className="flex flex-row">
         <div className="flex-center mt-3 w-[2%] flex-col gap-0">
-          <div className="size-3 rounded-full border-2 border-primary bg-backgroundDark" />
+          <div className="size-3 rounded-full border-2 border-primary bg-backgroundLight dark:bg-backgroundDark" />
           <div className="h-full border-[1px] border-primary" />
         </div>
         <div className="w-[98%]">
