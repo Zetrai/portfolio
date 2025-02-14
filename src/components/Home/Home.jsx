@@ -14,7 +14,7 @@ import {
 const Home = () => {
   return (
     <section id="home" className="mb-9 min-h-[85vh]">
-      <div className="grid grid-cols-[2fr_1fr] grid-rows-[auto_auto] gap-4">
+      <div className="mb-4 grid grid-cols-1 gap-4 md:mb-0 md:grid-cols-[2fr_1fr] md:grid-rows-[auto_auto]">
         <Card className="flex min-h-[400px] flex-col justify-center">
           <p className="text-[15px] text-textLight dark:text-textDark">
             I’m a developer passionate about crafting accessible, pixel-perfect
@@ -40,7 +40,7 @@ const Home = () => {
           </p>
         </Card>
         <Card className="gradient-light dark:gradient-dark relative flex flex-col items-center justify-center gap-10 rounded-lg p-1">
-          <div className="grid h-[90%] w-[90%] grid-cols-1 items-center justify-center justify-items-center gap-6 xs:grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          <div className="grid h-[90%] w-[90%] grid-cols-4 items-center justify-center justify-items-center gap-6 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4">
             <ReactIcon className="h-[35px] w-[45px] lg:h-[45px] lg:w-[60px]" />
             <AngularIcon className="h-[35px] w-[45px] lg:h-[45px] lg:w-[60px]" />
             <NodeJsIcon className="h-[35px] w-[45px] lg:h-[45px] lg:w-[60px]" />
