@@ -14,7 +14,7 @@ const App = () => {
         <div className="mx-6 min-h-[85vh]">
           <Home />
           <Experience />
-          <Projects />
+          {/* <Projects /> */}
         </div>
       </div>
     </>

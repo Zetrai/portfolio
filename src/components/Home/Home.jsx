@@ -55,7 +55,7 @@ const Home = () => {
           </h2>
         </Card>
       </div>
-      <div className="grid grid-cols-3 grid-rows-[auto_auto] gap-4 lg:grid-cols-5">
+      <div className="grid grid-cols-2 grid-rows-[auto_auto] gap-4 md:grid-cols-3 lg:grid-cols-5">
         <Card className="flex min-h-[150px] flex-col items-center justify-around gap-2 lg:min-h-[200px]">
           <p className="mb-10 mt-4 text-center text-textLight dark:text-textDark">
             <span className="text-4xl">6</span> Years
@@ -97,7 +97,7 @@ const Home = () => {
         </Card>
 
         <Card className="flex-center">
-          <div className="flex-center size-full rounded-full bg-[#FF715B]/70 hover:border-[6px] hover:border-white/40 dark:bg-primary">
+          <div className="flex-center size-full rounded-full bg-[#FF715B]/70 py-2 hover:border-[6px] hover:border-white/40 dark:bg-primary">
             <p className="rounded-full text-center font-saira text-lg tracking-widest text-textLight dark:text-gray-100 sm:text-xl lg:text-2xl">
               Download Resume
             </p>

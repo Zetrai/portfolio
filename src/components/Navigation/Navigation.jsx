@@ -55,8 +55,8 @@ const Navigation = () => {
           href="#home"
           label="Home"
           data-to-scrollspy-id="#home"
-          className={`uppercase transition-transform hover:scale-125 ${
-            activeSection === "home" ? "m-5 scale-125 text-amber-600" : ""
+          className={`uppercase transition-transform hover:scale-100 ${
+            activeSection === "home" ? "text-amber-600" : ""
           }`}
         >
           Home
@@ -65,22 +65,22 @@ const Navigation = () => {
           href="#experience"
           label="Experience"
           data-to-scrollspy-id="#experience"
-          className={`uppercase transition-transform hover:scale-125 ${
-            activeSection === "experience" ? "m-5 scale-125 text-amber-600" : ""
+          className={`uppercase transition-transform hover:scale-100 ${
+            activeSection === "experience" ? "scale-100 text-amber-600" : ""
           }`}
         >
           Experience
         </a>
-        <a
+        {/* <a
           href="#projects"
           label="Projects"
           data-to-scrollspy-id="#projects"
-          className={`uppercase transition-transform hover:scale-125 ${
-            activeSection === "projects" ? "m-5 scale-125 text-amber-600" : ""
+          className={`uppercase transition-transform hover:scale-100 ${
+            activeSection === "projects" ? "text-amber-600" : ""
           }`}
         >
           Projects
-        </a>
+        </a> */}
       </nav>
       <PulseIcon
         icon={modeIcon}
